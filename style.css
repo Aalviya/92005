@@ -65,6 +65,11 @@ header {
   text-align: center;
 }
 
+/*background image*/
+header {
+    background-image: url(https://i.pinimg.com/736x/91/3e/58/913e5801e123c71297be3bfe7bf26405.jpg)
+}
+
 h2 {
   color: #025853;
   text-decoration: underline;
