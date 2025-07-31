@@ -2,7 +2,7 @@
 /* For search bar*/
 .topnav {
     overflow: hidden;
-    background-colour:kfg;
+    background-colour:#005f93;
     }
 
 .topnav a{
@@ -16,13 +16,13 @@
     }
 
 .topnav a.hover{
-    background color:hhjfshf;
-    color: blue;
+    background color: #f296db;
+    color: black;
     }
 
  .topnav a.active{
     background-colour:hfk;
-    color: blue;
+    color: whit;
     }
 
  .topnav input[type=text]{
@@ -48,7 +48,7 @@
 }
 
 
-/*Body styel*/
+/*Body style*/
 body {
   font-family: 'Inter', sans-serif;
   background: #c2e9f2;
