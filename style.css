@@ -19,11 +19,6 @@
   color: black;
 }
 
-.topnav a.active{
-  background-color: red;
-  color: white;
-}
-
 .topnav input[type=text]{
   float: right;
   padding: 6px;
@@ -79,6 +74,7 @@ h1 {
   color: white;
   padding: 1em 0;
   text-align: center;
+  background-image: url("Screenshot 2025-08-05 132743.png";)
 }
 
 h2 {
