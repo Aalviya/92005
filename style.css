@@ -146,6 +146,23 @@ table{
   margin-top: 10px;
   background-color: rgb(169, 169, 235);
 }
+/*Style for banner*/
+.Layout{
+  display: flex;
+  min-height: 100vh
+}
+.Left-banner {
+  width: 150px;
+  display: block;
+  margin:0 auto;
+}
+.Left-banner img,
+.Right-banner img{
+  width: 100;
+  height: 100vh;
+  object-fit: cover;
+  just
+}
 footer {
  background: #0077b6;
  color: white;
