@@ -13,10 +13,10 @@
 background-image: url('Background-about.jpg');
 }
 .logo-title3{
-background-image: url('Background-solutions.jpg');
+background-image: url('Background-solutions.jpeg');
 }
 }.logo-title4{
-background-image: url('Background-about.jpg');
+background-image: url('Background-getinvolved.jpg');
 }
 /*This is only for the logo img, it styles it's height, width, the logo's postions to the start of the container, it's position near to it's container-element, moves to the right, vertical and vertical again for 2D images*/
 .mrgs{
