@@ -1,17 +1,27 @@
 /*ALL PAGES*/
 /*This is the for logo-title element's the text and items in the center, the height, colour, it's original position in the html, and to also make it flexbox*/
-.logo-title{
+.logo-title1,
+.logo-title2, .logo-title3, .logo-title4{
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  background-color: #0077b7;
+  height: 200px;
+  background-image: url('Background-index.jpg');
+}
+.logo-title2{
+background-image: url('Background-about.jpg');
+}
+.logo-title3{
+background-image: url('Background-solutions.jpg');
+}
+}.logo-title4{
+background-image: url('Background-about.jpg');
 }
 /*This is only for the logo img, it styles it's height, width, the logo's postions to the start of the container, it's position near to it's container-element, moves to the right, vertical and vertical again for 2D images*/
 .mrgs{
-  height: 100px;
-  width: 120px;
+  height: 200px;
+  width: 300x;
   align-items: flex-start;
   position: absolute;
   left: 25px;
