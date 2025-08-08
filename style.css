@@ -1,27 +1,53 @@
 /*ALL PAGES*/
 /*This is the for logo-title element's same and position, flexbox, items in the center, height, colour, image url*/
-.logo-title1,
-.logo-title2, .logo-title3, .logo-title4{
+.logo-title{
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 200px;
+}
+/*These are the position, alignment,t height and width of my background image*/
+.banner-home{
   background-image: url('Background-index.jpg');
+  background-size: cover;
+  background-position; center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 20000px;
+  text-align: center;
 }
-.logo-title2{
-background-image: url('Background-about.jpg');
+.banner-about{
+  background-image: url('Background-about.jpg');
+  background-size: cover;
+  background-position; center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 2000px;
+  text-align: center;
 }
-.logo-title3{
-background-image: url('Background-solutions.jpg');
+.banner-solutions{
+  background-image: url('Background-solutions.jpg');
+  background-size: cover;
+  background-position; center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 2000px;
+  text-align: center;
 }
-}.logo-title4{
-background-image: url('Background-about.jpg');
+.banner-get-involved{
+  background-image: url('Background-getinvolved.jpg');
+  background-size: cover;
+  background-position; center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 2000px;
+  text-align: center;
 }
 /*This is only for the logo img, it styles it's height, width, position to the start of the container, it's position near to it's container-element, moves to the right, how much it it moves vertically and how much it moved vertical again for 2D images*/
 .mrgs{
   height: 200px;
-  width: 300x;
+  width: 300px;
   align-items: flex-start;
   position: absolute;
   left: 25px;
