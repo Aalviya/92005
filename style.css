@@ -1,5 +1,5 @@
 /*ALL PAGES*/
-/*This is the for logo-title element's the text and items in the center, the height, colour, it's original position in the html, and to also make it flexbox*/
+/*This is the for logo-title element's same and position, flexbox, items in the center, height, colour, image url*/
 .logo-title1,
 .logo-title2, .logo-title3, .logo-title4{
   position: relative;
@@ -18,7 +18,7 @@ background-image: url('Background-solutions.jpg');
 }.logo-title4{
 background-image: url('Background-about.jpg');
 }
-/*This is only for the logo img, it styles it's height, width, the logo's postions to the start of the container, it's position near to it's container-element, moves to the right, vertical and vertical again for 2D images*/
+/*This is only for the logo img, it styles it's height, width, position to the start of the container, it's position near to it's container-element, moves to the right, how much it it moves vertically and how much it moved vertical again for 2D images*/
 .mrgs{
   height: 200px;
   width: 300x;
@@ -28,14 +28,14 @@ background-image: url('Background-about.jpg');
   top: 50%;
   transform: translateY(-50%);
 }
-/*This is for the h1, its colour, padding, aling the text to center, and it's font type*/
+/*This is for the h1, to keep every h1 same, its colour, padding, the text to center, and it's font type*/
 h1 {
   color: white;
   padding: 16px 0;
   text-align: center;
   font-family: 'Almendra SC';
 }
-/*This is for the nav-bar container, making sure it's not displayed with bullet points, no margin, no padding, if anything goes outisde its box it keeps it hidden, flexbox, keeping items center vertically and hrozontally and background*/
+/*This is for the nav-bar container, making sure it's not displayed with bullet points everything with the same class match, no margin, no padding, if anything goes outside its box it keeps it hidden, flexbox, keeping items center vertically and horizontally and background color*/
 .nav-bar {
  list-style: none;
  margin: 0;
@@ -50,7 +50,7 @@ h1 {
 .nav-bar li {
  margin: 0 16px;
 }
-/*This is for the href in the list, it styles by making it a block, color, aligning the text to the center, it chnages the background colour in 0.2s, font type*/
+/*This is for the href in the list, it styles by making it a block, color, aligning the text to the center, it changes the background colour in 0.2s, font type*/
 li a {
  display: block;
  color: white;
@@ -59,13 +59,13 @@ li a {
  transition: background 0.2s;
  font-family: 'Aboreto'
 }
-/*This is if the href is activated it's colour will be or hoverd it will turn yellow, other the background colour*/
+/*This is if the href is activated it's colour will be or hovered it will turn yellow, other the background colour*/
 li a.active,
 li a:hover {
  background: #ffd700;
  color: #003366;
 }
-/*This is the for the style for a box where the body is going to be, its width, margin, padding, background and how rounded the edges should be*/
+/*This is the for the style for a box where the body is going to be, its width, margin, padding, background and how rounded the edges should be and evey container with the same class will match*/
 main {
  max-width: 100%;
  margin: 6px auto;
@@ -73,7 +73,7 @@ main {
  background: white;
  border-radius: 10px;
 }
-/*This the syle for Body, font type, backgound, color, marging and padding*/
+/*This the style for Body, font type, background, color, margin and padding and keeping the container with the same class match*/
 body {
   font-family: 'Afacad', sans-serif;
   background: #c2e9f2;
@@ -81,7 +81,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/*This is for h2's colour, text decoration, it's colour and style and font type*/
+/*This is for h2's colour, text decoration, it's colour and style and font type and making the class match*/
 h2 {
  color: #025853;
  text-decoration: underline;
@@ -89,7 +89,7 @@ h2 {
  text-decoration-style: solid;
  font-family: 'Aboreto';
 }
-/*This is the button shown in the main element, it styles for the it to be a inlined with the other items, border, color, space from the h2, padding, background, how round it's edges should be, font type and weigth and changing the backgroud*/
+/*This is the button shown in the main element, it styles for the it to be a inlined with the other items, border, color, space from the h2, padding, background, how round it's edges should be, font type and weight, changing the background*/
 .btn {
  display: inline-block;
  border: none;
@@ -116,7 +116,7 @@ table{
   margin-top: 10px;
   background-color: rgb(169, 169, 235);
 }
-/*Background, color, aligning text in the center, padding, space above from the other element, how round the edges should be*/
+/*Background, color, aligning text in the center, padding, space above from the other element, how round the edges should be and keeping every footer on the pages same*/
 footer {
  background: #0077b6;
  color: white;
@@ -126,18 +126,18 @@ footer {
  border-radius: 0 0 10px 10px;
 }
 /*HOME*/
-/*This is for the marging of the flex-home section*/
+/*This is for the margin of the flex-home section and matching the container with the same class with these styles*/
 .flex-home {
  margin-bottom: 32px;
 }
-/*This is for for turning the div attribut flex-intro into flexbox, allow the words to move into the next line if there is not any space, aligning the text to the center and gap*/
+/*This is for for turning the div attribute flex-intro into flexbox, allow the words to move into the next line if there is not any space, aligning the text to the center and gap and keeping the class match*/
 .flex-intro {
  display: flex;
  flex-wrap: wrap;
  align-items: center;
  gap: 2px;
 }
-/*This is a container for the vidoes and imges, it's display as flexbox, show in a row, align items to the center, margin, gap between each other and padding*/
+/*This is a container for the videos and images, it's display as flexbox, show in a row, align items to the center, margin, gap between each other and padding*/
 .media-container {
   display: flex;
   flex-direction: row;
@@ -146,7 +146,7 @@ footer {
   gap: 100px;
   padding: 20px 0;
 }
-/*This is for the images and vidoes, it's height, width, how round the edges should be, broder, padding, diplay like a block, and if it goes out of the block keeping it hidden*/
+/*This is for the images and videos, it's height, width, how round the edges should be, broder, padding, display like a block, and if it goes out of the block keeping it hidden*/
 .media-container img,
 .media-container iframe {
   height: 265px;
@@ -158,24 +158,26 @@ footer {
   overflow: hidden;
 }
 /*ABOUT*/
-/*This styles for the flex about section, as a felxbox, it's gap, allowing the words to go the the next line if it does not fit, showing it in a row*/
+/*This styles for the flex about section, as a flexbox, it's gap, allowing the words to go the the next line if it does not fit, showing it in a row*/
 .flex-about {
  display: flex;
  gap: 32px;
  flex-wrap: wrap;
  flex-direction: row;
 }
-
+/*This is for matching the container with the same class with this style, styling it's background color, aligning to the center, and make all the items be the same length*/
 .section-a {
   background-color: rgb(226, 241, 247);
   padding: 20px;
   text-align: center;
   flex: 1;
 }
+/*This is for matching the container with the same class with this style, it style it's font type and align the text to the center*/
 h2.heading {
   text-align: center;
   font-family: Aboreto;
 }
+/*This styles the one part of the table's background color, font weight, border, aligning to the left and padding*/
 th{
   background-color: white;
   font-weight: bold;
@@ -183,36 +185,38 @@ th{
   text-align: left;
   padding: 10px;
 }
+/*This styles for the other side of the table's background-colour, border, aligning the text to the left and padding*/
 td {
   background-color: white;
   border: 2px solid;
   text-align: left;
   padding: 10px;
 }
+/*This changes color when the td element is hovered*/
 td:hover{
   background-color: pink;
 }
-
 /*SOLUTIONS*/
+/*This styles for the container with the same class, it styles for it be flexbox, gap, wrapping the item and margin*/
 .flex-solution {
  display: flex;
  gap: 24px;
  flex-wrap: wrap;
  margin-bottom: 2em;
 }
-
+/*This styles for the container with the same class, it styles it be a specific length, padding, how round it's edges should be*/
 .flex-card {
  flex: 1 1 220px;
  background: #d0f0c0;
  padding: 16px;
  border-radius: 8px;
- box-shadow: 0 2px 8px rgba(0,0,0,0.03);
 }
-
 /*GET-INVOLVED*/
+/*This styles for the the container with the same class's box size*/
 * {
     box-sizing: border-box;
 }
+/*Thi styles for the forms input, select and text area's width, padding, border, how round the box edges should be and it removes the height*/
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -220,10 +224,12 @@ input[type=text], select, textarea {
     border-radius: 4px;
     resize: vertical;
 }
+/*This styles the element's padding, and for it styled for the it to be a inlined with the other items*/
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
+/*This styles the input element's background color, it's color, padding, how round the edges should be, border, make it clickable, and place them item to the right*/
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -233,31 +239,35 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 }
+/*This styles for when the input element is hovered the background changes*/
 input[type=submit]:hover {
   background-color: #45a049;
 }
+/*This styles for the container with the same class's broder, background color and padding*/
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
+/*This styles for the container with the same class's width, the distance between the other elements,and move the item to the left*/
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
+/*This styles for the container with the same class's width,  the distance between the other elements,and move the item to the left*/
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
-/* This clears the floats */
+/*This styles for the container with the same class to be displayed as a table and clears any float*/
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-/* This makes the boxes line up on top of each other when the screen width is less that 600px.*/
+/* This makes the boxes line up on top of each other when the screen width is less that 600px and styles it's width and the distance from te other elements*/
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
