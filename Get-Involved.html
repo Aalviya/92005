@@ -1,37 +1,41 @@
+<!-- This is what type of HTML is being used-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Take Action – Kaitiakitanga</title>
- <link rel="stylesheet" href="Style.css">
- <link href="https://fonts.googleapis.com/css?family=Aboreto|Afacad|Almendra+SC" rel="stylesheet">
-</head>
-<body>
+<html lang="en"><!--This is to make the langauge english-->
+<head><!--This is the start of the head-->
+ <meta charset="UTF-8"><!--This is the header-->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This makes sure that this webpage can be opened in any devices without altering the layout-->
+ <title>Take Action – Kaitiakitanga</title><!--This is the tile-->
+ <link rel="stylesheet" href="Style.css"><!--This links the style sheet to the html-->
+ <link href="https://fonts.googleapis.com/css?family=Aboreto|Afacad|Almendra+SC" rel="stylesheet"><!--This is for linking google fonts so I am able to use anny type of fonts CSS don't have-->
+</head><!--This is the end of the head-->
+<body><!--This is where the body starts-->
+<!--This is where the header element starts it contains of 1 image, a heading 1-->
  <header class="logo-title3">
-   <img src="mrgs-logo.png" class="mrgs">
-   <h1>Get Involved</h1>
-  </header>
-   <nav>
-     <ul class="nav-bar">
-       <li><a href="Index.html">Home</a></li>
+   <img src="mrgs-logo.png" class="mrgs"><!--This is the image-->
+   <h1>Get Involved</h1><!--This is the heading 1-->
+  </header><!--This is where the head ends-->
+   <nav><!--This is an  nav element for the navigation bar. It includes 4 links to html webpages-->
+     <ul class="nav-bar"><!--This is the start for the list of links-->
+       <li><a href="Index.html">Home</a></li><!--This is the first link-->
        <li><a href="About.html">About</a></li>
        <li><a href="Solutions.html">Solutions</a></li>
        <li><a href="Get-Involved.html" class="active">Get-Involved</a></li>
-     </ul>
-   </nav>
- <main>
-   <section>
-     <h2>Join Us in Making a Difference</h2>
- <p>Sign up to volunteer, join a beach clean-up, or contact us with your ideas!</p>
-    <div class="form-container">
-      <form action="/action_page.php">
-      <div class="row">
-        <div class="col-25">
-         <label for="name">First name:</label>
-        </div>
+     </ul><!--This is where the list ends-->
+   </nav><!--This is where the nav element ends-->
+ <main><!--This is where the main element starts-->
+<!--This is where the first section starts, it consists of heading 2s, paragraphs, div containers and forms-->
+   <section><!--This is the start of the section-->
+     <h2>Join Us in Making a Difference</h2><!--This is heading 2-->
+     <p>Sign up to volunteer, join a beach clean-up, or contact us with your ideas!</p><!--This is the paragraph-->
+    <div class="form-container"><!--This is the start of a div container with the class 'form-container'-->
+      <form action="/action_page.php"><!--This is the start of the form-->
+      <div class="row"><!--This is the start of another div container with the class 'row'-->
+        <div class="col-25"><!--This is the start of another div container with the class 'col-25'-->
+         <label for="name">First name:</label><!--This is a label-->
+        </div><!--This is the end of div container with the class 'row'-->
+<!--From the container with the class 'col-25' it keeps repeating until is div container with the class 'row' ends the first time but sometimes other elements have also been used-->
         <div class="col-75">
-        <input type="text" id= name" name="firstname" placeholder="Your Name..">
+        <input type="text" id= name" name="firstname" placeholder="Your Name.."><!--This is another element called input, it's for the user to type-->
         </div>
       </div>
       <div class="row">
@@ -57,18 +61,17 @@
         <div class="col-75">
            <textarea id="message" name="message" placeholder="Type your message here..." style="height:200px"></textarea>
         </div>
-      </div>
-      <br>
-      <div class="row">
+      </div><!--This is the end of the div container with the class 'row' for the first time-->
+      <div class="row"><!--This means the div container with class 'row' has benn used again-->
        <input type="submit" value="Submit">
-      </div>
-      </form>
-    </div>
-    <p><small>For more information contact 23097@students.mrgs.school.nz</small></p>
-  </section>
-</main>
-<footer>
-  <p>TOGETHER, LET'S MAKE A CHANGE - ONE WAVE AT A TIME!</p>
-</footer>
-</body>
-</html>
+      </div><!--This is the end of the div container with the class 'row' for the second time-->
+      </form><!--This is where the form ends-->
+    </div><!--This is the end of the div container with the class 'form-container'-->
+    <p><small>For more information contact 23097@students.mrgs.school.nz</small></p><!--This is a paragraph but this is different from the other paragraphs, this paragraph is small-->
+  </section><!--This is where the second section ends-->
+</main><!--This is the end of the main-->
+<footer><!--this is where the footer begins-->
+  <p>TOGETHER, LET'S MAKE A CHANGE - ONE WAVE AT A TIME!</p><!--this is where the footer begins-->
+</footer><!-- This is where footer ends-->
+</body><!--This is where the body ends-->
+</html><!--This is where the first html page ends-->
